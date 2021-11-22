@@ -1,0 +1,37 @@
+{
+  "name": "bim360-issue-editor",
+  "version": "0.0.1",
+  "description": "Prototype application for bulk-editing BIM 360 issues using Autodesk Forge APIs.",
+  "author": "Petr Broz <petr.broz@autodesk.com>",
+  "keywords": [
+    "autodesk",
+    "forge",
+    "bim360"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.15.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "bugs": {
+    "url": "https://github.com/petrbroz/bim360-issue-editor/issues"
+  },
+  "homepage": "https://github.com/petrbroz/bim360-issue-editor#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petrbroz/bim360-issue-editor.git"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.6.0",
+    "axios": "^0.21.4",
+    "cookie-session": "^1.4.0",
+    "ejs": "^2.7.4",
+    "exceljs": "^3.10.0",
+    "express": "^4.17.1",
+    "forge-server-utils": "^8.3.4",
+    "fs-extra": "^8.1.0",
+    "multer": "^1.4.3"
+  }
+}

@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Server",
+            "program": "${workspaceFolder}/server.js",
+            "env": {
+                "FORGE_CLIENT_ID": "uCYP2m4d6D9bYEvFUTM5l4t1w9vcDD38",
+                "FORGE_CLIENT_SECRET": "mYZXKkdx6gANljrY",
+                "FORGE_APP_NAME": "bim360issueseditor",
+                "HOST_URL": "http://localhost:3000",
+                "SERVER_SESSION_SECRET": "quickfox",
+                "CLI_CONFIG_PASSWORD": "brownfox"
+            }
+        }
+    ]
+}
